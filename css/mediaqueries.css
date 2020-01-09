@@ -60,6 +60,11 @@
 	.ofertas h1{
 		font-size: x-large;
 	}
+	.box{
+		width: 70%;
+		background-color:white;
+		margin-bottom: 20px;
+	}
 
 }
 
