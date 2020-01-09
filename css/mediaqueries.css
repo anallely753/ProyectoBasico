@@ -1,0 +1,78 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	header img{
+		display: none;
+	}
+
+	nav{
+		height: 40px;
+		text-align: left;
+		padding-left: 10px;
+	}
+
+	main{
+		margin-top: 40px;
+	}
+	.contenido{
+		font-size: smaller;
+	}
+
+	nav a{
+		width: 20%;
+	}
+
+	#reserva{
+		width: 15vw;
+		left: 80vw;
+	}
+	.ofertas h1{
+		font-size: x-large;
+	}
+	.box{
+		width: 70%;
+		background-color:white;
+		margin-bottom: 20px;
+	}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+	
+	header img{
+		display: none;
+	}
+	main{
+		margin-top: 40px;
+	}
+	nav{
+		height: 40px;
+		text-align: left;
+		padding-left: 10px;
+	}
+	.contenido{
+		font-size: smaller;
+	}
+	#reserva{
+		width: 15vw;
+		left: 80vw;
+	}
+	.ofertas h1{
+		font-size: x-large;
+	}
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+	#reserva{
+		width: 15vw;
+		left: 80vw;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {...}
